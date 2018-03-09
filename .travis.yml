@@ -4,7 +4,6 @@
   script:
     - pytest
   install:
-  - pip install .
   - pip install -r requirements.txt
 
 dist: trusty
