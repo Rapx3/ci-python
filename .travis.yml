@@ -3,6 +3,9 @@
     - "3.6"
   script:
     - pytest
+  install:
+  - pip install .
+  - pip install -r requirements.txt
 
 dist: trusty
 sudo: required
