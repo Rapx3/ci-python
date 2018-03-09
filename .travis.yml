@@ -1,3 +1,9 @@
+  language: python
+  python:
+    - "3.6"
+  script:
+    - pytest
+
 dist: trusty
 sudo: required
 
